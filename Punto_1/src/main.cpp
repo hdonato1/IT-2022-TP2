@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <ESP8266WiFi.h>                    //Incluye la librería ESP8266WiFi
+#include <WiFi.h>                    //Incluye la librería ESP8266WiFi
 const char ssid[] = "horacio";            //Definimos la SSDI de nuestro servidor WiFi -nombre de red- 
 const char password[] = "12345678";       //Definimos la contraseña de nuestro servidor 
 WiFiServer server(80);                    //Definimos el puerto de comunicaciones
